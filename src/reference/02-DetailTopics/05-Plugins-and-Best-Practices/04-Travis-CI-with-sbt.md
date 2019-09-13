@@ -173,6 +173,7 @@ Here's a sample `cache:` configuration that you can use:
 # These directories are cached to a cloud storage provider "close" to the infrastructure the builds run on.
 cache:
   directories:
+    - \$HOME/.coursier
     - \$HOME/.ivy2/cache
     - \$HOME/.sbt
 ```
